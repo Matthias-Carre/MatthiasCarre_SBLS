@@ -11,7 +11,7 @@ L'objectif est de générer une grille  où chaque élément apparaît une seule
 * Comparaison des performances selon les contraintes appliquées (lignes vs colonnes).
 
 ## Prérequis
-* **Java 22** ou supérieur.
+* **Java 21** ou supérieur.
 * **Maven** pour la gestion des dépendances.
 * **Choco Solver 4.10.14**.
 
