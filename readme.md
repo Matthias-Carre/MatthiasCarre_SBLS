@@ -19,8 +19,8 @@ L'objectif est de générer une grille  où chaque élément apparaît une seule
 
 1. **Cloner le dépôt :**
 ```bash
-git clone https://github.com/votre-utilisateur/votre-repo.git
-cd votre-repo
+git clone https://github.com/Matthias-Carre/MatthiasCarre_SBLS.git
+cd MatthiasCarre_SBLS
 
 ```
 
