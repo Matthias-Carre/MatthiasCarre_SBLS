@@ -4,18 +4,18 @@ Ce projet propose une modélisation et une résolution du problème des **Carré
 
 L'objectif est de générer une grille  où chaque élément apparaît une seule fois par ligne et par colonne, tout en garantissant que la somme des distances entre chaque paire de valeurs soit constante afin d'éviter les biais de voisinage (utile notamment en expérimentation agronomique).
 
-##Fonctionnalités
+## Fonctionnalités
 
 * Modélisation complète du problème SBLS.
 * Techniques de **cassage de symétrie** pour optimiser la recherche.
 * Comparaison des performances selon les contraintes appliquées (lignes vs colonnes).
 
-##Prérequis
+## Prérequis
 * **Java 22** ou supérieur.
 * **Maven** pour la gestion des dépendances.
 * **Choco Solver 4.10.14**.
 
-##Installation et Utilisation
+## Installation et Utilisation
 
 1. **Cloner le dépôt :**
 ```bash
@@ -40,13 +40,13 @@ mvn exec:java -Dexec.mainClass="org.example.Main"
 ```
 
 
-##Structure du Projet
+## Structure du Projet
 
 * `src/main/java/org/example/Main.java` : Point d'entrée contenant le modèle Choco et la boucle de test.
 * `pom.xml` : Configuration Maven et dépendances (Choco Solver).
 * `rapport.pdf` : (Optionnel) Pour une explication détaillée de la modélisation mathématique.
 
-##Résultats de performance
+## Résultats de performance
 
 Le solveur affiche les statistiques détaillées (nœuds, backtracks, temps de résolution) grâce à la méthode :
 
